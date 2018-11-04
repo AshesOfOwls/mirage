@@ -1,5 +1,5 @@
-import Button from './components/button';
+import Components from './components';
 
 export {
-  Button,
+  Components,
 };
