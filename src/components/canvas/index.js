@@ -4,14 +4,12 @@ import classnames from 'classnames';
 import './styles.css';
 
 class Canvas extends Component {
-    get sizeClass() {
-        return `size-${this.props.size}`;
-    }
-    
     renderChildren() {
         return (
-            <div className={classnames('canvas', this.sizeClass)}>
-                { this.props.children }
+            <div className={classnames('canvas')}>
+                <div className={classnames('canvas-inner')}>
+                    { this.props.children }
+                </div>
             </div>
         );
     }
@@ -20,9 +18,5 @@ class Canvas extends Component {
         return this.renderChildren();
     }
 }
-
-Canvas.defaultProps = {
-    size: 360,
-};
 
 export default Canvas;
