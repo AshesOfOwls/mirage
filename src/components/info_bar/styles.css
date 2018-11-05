@@ -1,0 +1,7 @@
+.info-bar {
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    height: 6%;
+    position: absolute;
+    width: 100%;
+}
