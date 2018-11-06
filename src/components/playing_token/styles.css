@@ -1,0 +1,26 @@
+.playingToken {
+  display: flex;
+  position: relative;
+}
+
+.playingToken-image img {
+  height: 55px;
+  margin-right: 10px;
+  width: 55px;
+}
+
+.playingToken-details {
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.playingToken-details-header {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.playingToken-details-body {
+  font-size: 16px;
+}
