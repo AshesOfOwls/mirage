@@ -1,7 +1,21 @@
-.info-bar {
+.infobar {
     background: rgba(255, 255, 255, 0.9);
-    bottom: 0;
-    height: 6%;
-    position: absolute;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding: 0 10px;
     width: 100%;
+}
+
+.infobar-pane {
+    flex: 1 0 auto;
+}
+
+.infobar-pane.center {
+    text-align: center;
+}
+
+.infobar-pane.right {
+    text-align: right;
 }
