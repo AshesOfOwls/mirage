@@ -21,7 +21,7 @@ class Image extends Component {
           { this.props.headerText }
         </div>
         <div className={classnames('playingToken-details-body')}>
-        { this.props.bodyText }
+          { this.props.bodyText }
         </div>
       </div>
     );

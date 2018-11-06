@@ -4,23 +4,25 @@
 }
 
 .playingToken-image img {
-  height: 55px;
+  height: 35px;
   margin-right: 10px;
-  width: 55px;
+  width: 35px;
 }
 
 .playingToken-details {
   display: flex;
-  height: 55px;
+  height: 35px;
   justify-content: center;
   flex-direction: column;
 }
 
 .playingToken-details-header {
   font-size: 12px;
+  line-height: 14px;
   text-transform: uppercase;
 }
 
 .playingToken-details-body {
   font-size: 16px;
+  line-height: 20px;
 }

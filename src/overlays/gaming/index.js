@@ -20,6 +20,7 @@ const infoBarStyle = {
   left: 0,
 };
 
+const tab = () => { return "Clip of the Week" };
 const right = () => { return "UP NEXT: THIS WEEKS HIGHLIGHTS" };
 const left = () => {
   return (
@@ -45,6 +46,7 @@ class GamingOverlay extends Component {
           styles={infoBarStyle}
           right={right}
           left={left}
+          tab={tab}
         />
       </div>
     );

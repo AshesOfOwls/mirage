@@ -7,7 +7,7 @@ import Canvas from '../../components/canvas';
 
 storiesOf('Overlays/Gaming', module)
   .add('default', () => (
-    <Canvas size={360}>
+    <Canvas full>
       <GamingOverlay />
     </Canvas>
   ));
